@@ -13,7 +13,7 @@ services:
       # Set alpine or pip package ENV vars for further mopidy extensions
       #
       - DOCKER_MODS=linuxserver/mods:universal-package-install
-      - INSTALL_PIP_PACKAGES=Mopidy-Beets|Mopidy-dLeyna|Mopidy-InternetArchive|Mopidy-TuneIn|Mopidy-YTMusic
+      - INSTALL_PIP_PACKAGES=Mopidy-Beets|Mopidy-dLeyna|Mopidy-InternetArchive|Mopidy-TuneIn|Mopidy-YTMusic|Mopidy-Jellyfin|mopidy-musicbox-webclient
       # - INSTALL_PACKAGES=mopidy-podcast
     restart: "unless-stopped"
     ports:
